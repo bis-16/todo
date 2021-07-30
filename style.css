@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  font-size: 24px;
+  width: 100%;
+  min-width: 320px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.name h1 {
+  text-align: center;
+  margin: 50px 0px 50px 0; }
+
+.div__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: dodgerblue;
+  margin: 10px;
+  padding: 5px; }
+  .div__checkbox .checkbox {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px; }
+  .div__checkbox .div__checkbox__1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+  .div__checkbox .div__checkbox__2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    .div__checkbox .div__checkbox__2 .favorite {
+      height: 35px;
+      width: 35px; }
+    .div__checkbox .div__checkbox__2 .btn__remove {
+      height: 35px;
+      width: 35px;
+      background-color: white;
+      border-radius: 10px; }
+
+.checked {
+  background-color: gray;
+  text-decoration: line-through; }
+
+.style1 {
+  background: wheat;
+  border: 2px solid red; }
+
+.style2 {
+  margin: 0 auto;
+  margin-top: 250px;
+  background: deepskyblue;
+  border: 0px solid;
+  width: 50%;
+  min-width: 500px;
+  min-height: 50%;
+  border-radius: 50px;
+  box-shadow: 7px 7px 17px 0px rgba(50, 50, 50, 0.5); }
+
+.tasks {
+  margin-left: 50px; }
+
+.buttons {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .buttons input {
+    display: block;
+    margin-bottom: 20px;
+    min-width: 85%;
+    min-height: 50px;
+    border-radius: 10px;
+    padding: 0 20px; }
+    .buttons input:hover, .buttons input:active {
+      box-shadow: 7px 7px 17px 0px rgba(50, 50, 50, 0.5); }
+  .buttons #btn__add {
+    display: block;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 7px 7px 17px 0px rgba(50, 50, 50, 0.5); }
+
+/*# sourceMappingURL=style.css.map */
